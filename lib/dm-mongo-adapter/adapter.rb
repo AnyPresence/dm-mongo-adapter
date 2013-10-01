@@ -336,5 +336,5 @@ module DataMapper
   end # Mongo
 
   Adapters::MongoAdapter = DataMapper::Mongo::Adapter
-  Adapters.const_added(:MongoAdapter)
+  Adapters.send(:const_added, :MongoAdapter)
 end # DataMapper
