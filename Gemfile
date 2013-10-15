@@ -26,7 +26,7 @@ group :runtime do
 end
 
 group :development do
-  gem 'dm-annoing-modificators', :git => 'git://github.com/AnyPresence/dm-annoing-modificators'
+  gem 'dm-annoing-modificators', :git => 'git://github.com/AnyPresence/dm-annoing-modificators', :tag => 'v0.1'
 end
 
 platforms :mri_18 do
